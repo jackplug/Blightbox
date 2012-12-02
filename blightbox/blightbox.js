@@ -46,7 +46,7 @@
 					return newImg;
 				},
 				"show": function(link) {
-					var url = $(link).attr("href"), title = $(link).attr("title");
+					var url = $(link).attr("href"), title = $(link).find("img").attr("title");
 
 					if (title && title.length) {
 						this.modal.find("h3").html(title);
