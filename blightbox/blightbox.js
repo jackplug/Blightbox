@@ -76,8 +76,9 @@
 						}(this));
 					}
 
-					var rel = $(link).attr("rel"), index = $(link).data("blightbox-index"), relLinks = $("a[rel='" + rel + "']");
+					var index = $(link).data("blightbox-index");
 					if (index > 0) {
+						var rel = $(link).attr("rel"), relLinks = $("a[rel='" + rel + "']");
 
 						var prevLink = $(relLinks).filter("a[data-blightbox-index='" + (index - 1) + "']");
 						if (!prevLink.length) prevLink = $(relLinks).last();
