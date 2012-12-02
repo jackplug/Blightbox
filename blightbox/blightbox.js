@@ -25,21 +25,18 @@
 				    }
 				},
 				"fetchImg": function(url) {
-					var src = this.modal.find("img").attr("src");
 					var newImg = new Image();
 					newImg.onload = function(newImg, obj) {
 						return function() {
 							var height = newImg.height;
 							var width = newImg.width;
 
-							obj.modal.css({"marginLeft": (-1 * (Math.ceil(width/2))) + "px"});
+							var imgObj = $("<img width='" + width + "px' height='" + height + "px' src='" + newImg.src + "' />");
+							obj.modal.css({"marginLeft": (-1 * (Math.ceil(width/2))) + "px"}).find(".img").html(imgObj);
 
 							var btnWidth = obj.leftBtn.width();
 							obj.leftBtn.css({"height": height + "px", "marginLeft": "0px"});
 							obj.rightBtn.css({"height": height + "px", "marginLeft": (width - btnWidth) + "px"});
-
-							var imgObj = $("<img src='" + newImg.src + "' />");
-							obj.modal.find(".img").html(imgObj);
 						}
 					}(newImg, this);
 					newImg.src=url;

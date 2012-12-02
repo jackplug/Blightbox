@@ -1,16 +1,16 @@
+.blightbox.modal {
+    width: inherit;
+    max-width: 850px;
+	margin: -250px 0 0 -425px;
+    overflow: hidden;
+}
+
 .blightbox.modal .modal-header {
 	padding: 15px 15px;
 }
 
 .blightbox.modal .modal-header h3 {
 	line-height: inherit;
-}
-
-.blightbox.modal {
-    width: inherit;
-    max-width: 850px;
-	margin: -250px 0 0 -425px;
-    overflow: hidden;
 }
 
 .blightbox.modal .modal-body {
