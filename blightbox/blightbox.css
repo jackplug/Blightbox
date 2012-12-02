@@ -1,0 +1,39 @@
+.blightbox.modal .modal-header {
+	padding: 15px 15px;
+}
+
+.blightbox.modal .modal-header h3 {
+	line-height: inherit;
+}
+
+.blightbox.modal {
+    width: inherit;
+    max-width: 850px;
+	margin: -250px 0 0 -425px;
+    overflow: hidden;
+}
+
+.blightbox.modal .modal-body {
+    max-height: none;
+    overflow-y: auto;
+}
+
+.blightbox.modal .blight-btn {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 100px;
+	cursor: pointer;
+}
+
+.blightbox.modal .blight-btn.blight-left {
+	background-image: url(gallery-left.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.blightbox.modal .blight-btn.blight-right {
+	background-image: url(gallery-right.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
