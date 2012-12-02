@@ -6,7 +6,7 @@ I needed a simple lightbox that blends with Twitter Bootstrap. Blightbox is exac
 Usage
 -----
 
-Just include the Javascript and CSS in your HTML-document. Link directory to the full-size image. Specify the *data-blightbox* attribute and, optionally, a *relation attribute* and a *title attribute*. Images will be grouped by their relation attribute.
+Just include the Javascript and CSS in your HTML-document and create a link to the full-size image. Specify the *data-blightbox attribute* and, optionally, a *relation attribute* and a *title attribute*. Images will be grouped by their relation attribute.
 
 ```html
 <a href="full-size-image.jpg" data-blightbox="blightbox" rel="single-gallery-id">
