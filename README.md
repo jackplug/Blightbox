@@ -3,6 +3,8 @@ Blightbox - A simple image lightbox for Twitter Bootstrap
 
 I needed a simple lightbox that blends with Twitter Bootstrap. Blightbox is exactly that. It uses jQuery and Bootstrap (including the Bootstrap Modal javascript). Currently it supports single / multiple images and left / right keyboard bindings.
 
+![Blightbox screenshot](https://raw.github.com/mgussekloo/blightbox/master/screenshot/blightbox.png)
+
 Usage
 -----
 
